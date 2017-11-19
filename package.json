@@ -1,0 +1,29 @@
+{
+  "name": "npm-mic-check",
+  "version": "1.0.0",
+  "description": "This is a simple npm testing module.  Pay it no mind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patdaburu/npm-mic-check.git"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Pat Daburu <pat@daburu.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patdaburu/npm-mic-check/issues"
+  },
+  "homepage": "https://github.com/patdaburu/npm-mic-check#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "nyc": "^11.3.0"
+  }
+}
