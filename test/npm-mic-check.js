@@ -1,4 +1,4 @@
-var npm_mic_check = require("../index.js");
+var npm_mic_check = require("../src/index.js");
 var expect = require("chai").expect;
 
 describe("npm mic check", function(){
