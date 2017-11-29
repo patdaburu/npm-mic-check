@@ -1,8 +1,8 @@
 {
   "name": "npm-mic-check",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This is a simple npm testing module.  Pay it no mind.",
-  "main": "src/index.js",
+  "main": "js/index.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha"
   },
